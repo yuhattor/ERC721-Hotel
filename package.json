@@ -1,0 +1,42 @@
+{
+  "name": "hotel-standard-token",
+  "version": "1.0.0",
+  "description": "ERC721 extension for Hotel Membership",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propwavejp/ERC721-Membership.git"
+  },
+  "author": "yuhattor",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/propwavejp/ERC721-Membership/issues"
+  },
+  "keywords": [
+    "ethereum",
+    "nft",
+    "smart contracts",
+    "erc721",
+    "openzeppelin"
+  ],
+  "homepage": "https://github.com/propwavejp/ERC721-Membership#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1"
+  }
+}
